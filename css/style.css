@@ -156,19 +156,37 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #72a411;
-	border: 0;
+	border: 1px solid #628d0f;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.5px;
-	border-radius: 0;
-	margin-top: 20px;
+	border-radius: 25px;
+	margin: 10px 5px 5px;
 	transition: all 0.5s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-color: #628d0f;
+}
+.btn-right {
+	text-transform: uppercase;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #628d0f;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	margin: 10px 5px 5px;
+	transition: all 0.5s;
+}
+.btn-right:hover, .btn-right:focus, .btn-right.focus, .btn-right:active, .btn-right.active {
+	color: #fff;
+	background-color: #72a411;
 }
 /* Header Section */
 .intro {
@@ -188,7 +206,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Dancing Script', cursive;
 	color: #fff;
-	font-size: 10em;
+	font-size: 8em;
 	font-weight: 700;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -199,19 +217,20 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro p {
 	color: #fff;
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 300;
 	margin-top: 10px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 header .intro-text {
+	color: #fff;
 	padding-top: 250px;
 	padding-bottom: 200px;
 	text-align: center;
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 90px 0;
 }
 #about h3 {
 	font-size: 20px;
@@ -237,32 +256,32 @@ header .intro-text {
 	line-height: 24px;
 	margin: 15px 0 30px;
 }
-/* Menu Section */
-#menu {
+/* Price List Section */
+#pricelist {
 	padding: 0 0 60px 0;
 }
-#menu .section-title {
+#pricelist .section-title {
 	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
-#menu .section-title h2 {
+#pricelist .section-title h2 {
 	color: #fff;
 }
-#menu img {
+#pricelist img {
 	width: 300px;
 	box-shadow: 15px 0 #a7c44c;
 }
-#menu h3 {
+#pricelist h3 {
 	padding: 10px 0;
 	text-transform: uppercase;
 }
-#menu .menu-section hr {
+#pricelist .menu-section hr {
 	margin: 0 auto;
 }
-#menu .menu-section {
+#pricelist .menu-section {
 	margin: 0 20px 80px;
 }
-#menu .menu-section-title {
+#pricelist .menu-section-title {
 	font-size: 26px;
 	display: block;
 	font-weight: 500;
@@ -270,21 +289,21 @@ header .intro-text {
 	margin: 20px 0;
 	text-align: center;
 }
-#menu .menu-item {
+#pricelist .menu-item {
 	margin: 35px 0;
 	font-size: 18px;
 }
-#menu .menu-item-name {
+#pricelist .menu-item-name {
 	font-weight: 600;
 	font-size: 17px;
 	color: #555;
 	border-bottom: 2px dotted rgb(213, 213, 213);
 }
-#menu .menu-item-description {
+#pricelist .menu-item-description {
 	font-style: italic;
 	font-size: 15px;
 }
-#menu .menu-item-price {
+#pricelist .menu-item-price {
 	float: right;
 	font-weight: 600;
 	color: #555;
@@ -292,7 +311,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 0 0 120px 0;
+	padding: 0 0 90px 0;
 }
 #portfolio .section-title {
 	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
@@ -303,7 +322,7 @@ header .intro-text {
 	color: #fff;
 }
 #portfolio h3 {
-	//padding: 10px 0;
+	padding: 10px 0;
 	text-transform: uppercase;
 }
 #portfolio .menu-section {
@@ -318,7 +337,7 @@ header .intro-text {
 	text-align: center;
 }
 #portfolio .menu-item {
-	margin: 35px 0;
+	margin: 30px 0 0;
 	font-size: 18px;
 }
 #portfolio .menu-item-name {
@@ -397,7 +416,7 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
-	margin: 15px 0;
+	margin: 10px 0;
 }
 .portfolio-item .hover-bg {
 	overflow: hidden;
@@ -530,7 +549,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 100px 0 90px 0;
 	background: #F6F6F6;
 }
 #contact .section-title p {
