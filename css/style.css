@@ -101,6 +101,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	right: 15px;
 	bottom: 15px;
 	transition: background 0.5s;
+	z-index: 11;
   }
   
   @media (max-width: 768px) {
