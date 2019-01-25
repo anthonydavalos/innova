@@ -47,6 +47,7 @@ $RECYCLE.BIN/
 css/nivo-lightbox/
 css/bootstrap.css
 css/bootstrap.min.css
+css/animate.min.css
 fonts/
 js/bootstrap.js
 js/bootstrap.min.js
@@ -56,6 +57,7 @@ js/jquery.1.11.1.js
 js/jquery.isotope.js
 js/nivo-lightbox.js
 js/SmoothScroll.js
+js/wow.min.js
 mail/
 /README.md
 /LICENSE

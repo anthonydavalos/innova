@@ -18,6 +18,9 @@ function main() {
         }
       });
 
+    // Initiate the wowjs animation library
+    new WOW().init();
+
     // Show Menu on Book
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 500;
