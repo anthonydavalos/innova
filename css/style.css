@@ -120,6 +120,39 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: #8eb640;
 	color: #fff;
   }
+/* Whatsapp button */
+.whatsapp {
+	width: 64px;
+  	height: 64px;
+	position: fixed;
+	background: rgba(45, 183, 66, .75);
+	color: #fff;
+	padding: 3.5px 0.7px 0 0;
+	font-size: 42px;
+	text-align: center;
+	border-radius: 100%;
+	left: 15px;
+	bottom: 15px;
+	transition: background 0.5s;
+	z-index: 12;
+  }
+  
+  @media (max-width: 768px) {
+	.whatsapp {
+	  bottom: 15px;
+	}
+  }
+  
+  .whatsapp:focus {
+	background: rgba(95, 210, 106, .75);
+	color: #fff;
+	outline: none;
+  }
+  
+  .whatsapp:hover {
+	background: rgba(95, 210, 106, .75);
+	color: #fff;
+  }
 /* Navigation */
 #menu {
 	padding: 20px;
