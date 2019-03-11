@@ -96,11 +96,6 @@ function main() {
         });
     }
 
-    // Whatsapp button
-    $('whatsapp').on('click', function () {
-        gtag('event', 'conversion', {'send_to': 'AW-821868065/TcQfCNSCxZYBEKHs8ocD'});
-    });
-
     // Nivo Lightbox 
     $('.portfolio-item a').nivoLightbox({
         effect: 'slideDown',  
