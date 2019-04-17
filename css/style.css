@@ -304,21 +304,18 @@ header .intro-text {
 }
 .background-image {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-
   width: auto;
   height: auto;
-
   max-height: none;
   max-width: none;
-
   min-height: 100%;
   min-width: 100%;
-
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
+  -ms-transform: translate(-50%, -60%);
+  -webkit-transform: translate(-50%, -60%);
+  object-fit: cover
 }
 header h1, header h2 {
 	font-family: 'Dancing Script', cursive;
