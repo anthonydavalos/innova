@@ -257,6 +257,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
+	height: 100vh;
 	background: url(../img/intro-bg.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -265,7 +266,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.4);
+	background: rgba(206, 13, 13, 0.637);
 }
 .intro h1 {
 	font-family: 'Dancing Script', cursive;
@@ -291,6 +292,49 @@ header .intro-text {
 	padding-top: 180px;
 	padding-bottom: 168px;
 	text-align: center;
+}
+.item {
+	position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.background-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: auto;
+  height: auto;
+
+  max-height: none;
+  max-width: none;
+
+  min-height: 100%;
+  min-width: 100%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+header h1, header h2 {
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 8em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+header p {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 /* About Section */
 #about {
