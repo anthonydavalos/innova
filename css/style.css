@@ -295,27 +295,27 @@ header .intro-text {
 }
 .item {
 	position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 100vh;
-  overflow: hidden;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100vh;
+	overflow: hidden;
 }
 .background-image {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  width: auto;
-  height: auto;
-  max-height: none;
-  max-width: none;
-  min-height: 100%;
-  min-width: 100%;
-  transform: translate(-50%, -60%);
-  -ms-transform: translate(-50%, -60%);
-  -webkit-transform: translate(-50%, -60%);
-  object-fit: cover
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: auto;
+	height: auto;
+	max-height: none;
+	max-width: none;
+	min-height: 100%;
+	min-width: 100%;
+	transform: translate(-50%, -60%);
+	-ms-transform: translate(-50%, -60%);
+	-webkit-transform: translate(-50%, -60%);
+	object-fit: cover
 }
 header h1, header h2 {
 	font-family: 'Dancing Script', cursive;
